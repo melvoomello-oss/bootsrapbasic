@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap basics</title>
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 class="text-danger text-center bg-sucess ">welcome to my site</h1>
+    <p class="text-warning">A paragraph with yellow color text</p>
+    <p class="text-warning">a paragraph with yellow color text </p>
+    <p class="text-danger">a paragraph with red text </p>
+    <h2 class="bg-info">Background colors</h2>
+    <p class="bg-warning">A pargraph with yellow Background</p>
+    <p class="bg-danger">A Paragraph with red Background</p>
+    <h2 class="bg-sucess">buttons</h2>
+    <button class="btn btn-danger">click me</button>
+    <button class="btn btn-primary">blue button</button>
+    <button class="btn btn-warning btn-lg">yellow button</button>
+    <button class="btn btn-info btn-sm">info button</button>
+    <h2 class="text-sucess">outline buttons</h2>
+    <button class="btn btn-outline-danger">outline button</button>
+    <button class="btn btn-outline-primary">primary outline button</button>
+    <h2 class="text-sucess bg-info text-center">alerts</h2>
+    <button class="btn btn-danger" onclick="alert('you clicked a button')"> click me </button>
+
+    <button class="btn btn-primary" onclick="displayAlert()">show /Hide alert</button>
+    <div id="myalert" class="alert alert-success d-none" role="alert">
+        A simple bootstrap alert
+    </div>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
